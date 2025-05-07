@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Now | Geetha's Kitchen</title>
+  <link rel="icon" href="images/gk-logo.jpg" type="image/png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">GK</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="order.html">Order Now</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Order Section -->
+   <!-- Payment Popup -->
+<div id="paymentPopup" class="popup hidden">
+    <div class="popup-content">
+      <h2>Scan & Pay</h2>
+      <img src="images/qr.jpeg" alt="UPI QR Code" class="qr-image" />
+      <p>Scan this QR code to complete your payment.</p>
+      <button id="payConfirm" class="hero-btn">I Paid, Continue</button>
+    </div>
+  </div>
+  
+  <section class="order-section">
+    <h1 class="menu-title">Place Your Order</h1>
+    <div id="menuItems" class="menu-grid"></div>
+
+    <div class="order-summary">
+      <h2>Your Cart</h2>
+      <ul id="cartList"></ul>
+      <p><strong>Total: ₹<span id="totalAmount">0</span></strong></p>
+
+      <form id="checkoutForm">
+        <input type="text" id="doorNumber" placeholder="Enter your door number" required>
+        <button type="submit" class="hero-btn">Checkout</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/order.js"></script>
+</body>
+</html>
