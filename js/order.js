@@ -6,7 +6,7 @@ const menuData = [
   { name: "2 Masala Dosa + Chutney", price: 90, image: "dosa.jpg" },
   { name: "6 Paddu/Paniyaram + Chutney", price: 70, image: "paddu.jpg" },
   { name: "2 Egg Dosa + Chutney", price: 100, image: "dosa.jpg" },
-  { name: "Rice + Andhra Pappu + Pepper Chicken (3 pcs)", price: 120, image: "peppr-chicken.jpg" },
+  { name: "Rice + Andhra Pappu + Pepper Chicken (3 pcs)", price: 120, image: "pepper-chicken.jpg" },
   { name: "Rice + Andhra Pappu + Papad", price: 80, image: "lunch.jpg" },
   { name: "Chicken Kabab", price: 100, image: "chicken-kebab.jpg" },
   { name: "Chicken Fry", price: 100, image: "chicken-fry.jpg" },
