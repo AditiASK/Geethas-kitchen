@@ -10,7 +10,7 @@ const menuData = [
   { name: "Rice + Andhra Pappu + Papad", price: 80, image: "lunch.jpg" },
   { name: "Chicken Kabab", price: 100, image: "chicken-kebab.jpg" },
   { name: "Chicken Fry", price: 100, image: "chicken-fry.jpg" },
-  { name: "Chicken Biryani (750ml) + Raita", price: 150, image: "chicken-biriyani.jpg" }
+  { name: "Chicken Biryani (750ml) + Raita", price: 150, image: "chicken-biriyani.jpg" },
   { name: "Rice + Andhra Pappu + Chicken Fry (3 pcs)", price: 120, image: "non-veg-1.jpg" },
   { name: "Rice + Andhra Pappu + Chicken Kabab (3 pcs)", price: 120, image: "non-veg-2.jpg" },
 
